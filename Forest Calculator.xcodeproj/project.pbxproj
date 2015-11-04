@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8880900C1BE92AAC0091C6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8880900B1BE92AAC0091C6EC /* AppDelegate.swift */; };
+		8880900E1BE92AAC0091C6EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8880900D1BE92AAC0091C6EC /* ViewController.swift */; };
+		888090111BE92AAD0091C6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8880900F1BE92AAD0091C6EC /* Main.storyboard */; };
+		888090141BE92AAD0091C6EC /* Forest_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 888090121BE92AAD0091C6EC /* Forest_Calculator.xcdatamodeld */; };
+		888090161BE92AAD0091C6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888090151BE92AAD0091C6EC /* Assets.xcassets */; };
+		888090191BE92AAD0091C6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888090171BE92AAD0091C6EC /* LaunchScreen.storyboard */; };
+		888090241BE92AAD0091C6EC /* Forest_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888090231BE92AAD0091C6EC /* Forest_CalculatorTests.swift */; };
+		8880902F1BE92AAD0091C6EC /* Forest_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8880902E1BE92AAD0091C6EC /* Forest_CalculatorUITests.swift */; };
+		888090471BE92ECC0091C6EC /* icon120(launchScreen).png in Resources */ = {isa = PBXBuildFile; fileRef = 8880903D1BE92ECC0091C6EC /* icon120(launchScreen).png */; };
+		888090481BE92ECC0091C6EC /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8880903E1BE92ECC0091C6EC /* icon120.png */; };
+		888090491BE92ECC0091C6EC /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8880903F1BE92ECC0091C6EC /* icon180.png */; };
+		8880904A1BE92ECC0091C6EC /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 888090401BE92ECC0091C6EC /* icon58.png */; };
+		8880904B1BE92ECC0091C6EC /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 888090411BE92ECC0091C6EC /* icon80.png */; };
+		8880904C1BE92ECC0091C6EC /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 888090421BE92ECC0091C6EC /* icon87.png */; };
+		8880904D1BE92ECC0091C6EC /* iconLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 888090431BE92ECC0091C6EC /* iconLaunchScreen.png */; };
+		8880904E1BE92ECC0091C6EC /* 640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 888090451BE92ECC0091C6EC /* 640_1136.png */; };
+		8880904F1BE92ECC0091C6EC /* 640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 888090461BE92ECC0091C6EC /* 640_960.png */; };
+		888090511BE948780091C6EC /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888090501BE948780091C6EC /* JournalTableViewController.swift */; };
+		888090531BE952D70091C6EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888090521BE952D70091C6EC /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888090201BE92AAD0091C6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888090001BE92AAC0091C6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888090071BE92AAC0091C6EC;
+			remoteInfo = "Forest Calculator";
+		};
+		8880902B1BE92AAD0091C6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888090001BE92AAC0091C6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888090071BE92AAC0091C6EC;
+			remoteInfo = "Forest Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888090081BE92AAC0091C6EC /* Forest Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forest Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8880900B1BE92AAC0091C6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8880900D1BE92AAC0091C6EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		888090101BE92AAD0091C6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888090131BE92AAD0091C6EC /* Forest_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forest_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		888090151BE92AAD0091C6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		888090181BE92AAD0091C6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8880901A1BE92AAD0091C6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8880901F1BE92AAD0091C6EC /* Forest CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forest CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888090231BE92AAD0091C6EC /* Forest_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forest_CalculatorTests.swift; sourceTree = "<group>"; };
+		888090251BE92AAD0091C6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8880902A1BE92AAD0091C6EC /* Forest CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forest CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8880902E1BE92AAD0091C6EC /* Forest_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forest_CalculatorUITests.swift; sourceTree = "<group>"; };
+		888090301BE92AAD0091C6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8880903D1BE92ECC0091C6EC /* icon120(launchScreen).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon120(launchScreen).png"; sourceTree = "<group>"; };
+		8880903E1BE92ECC0091C6EC /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		8880903F1BE92ECC0091C6EC /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		888090401BE92ECC0091C6EC /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		888090411BE92ECC0091C6EC /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		888090421BE92ECC0091C6EC /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		888090431BE92ECC0091C6EC /* iconLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLaunchScreen.png; sourceTree = "<group>"; };
+		888090451BE92ECC0091C6EC /* 640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640_1136.png; sourceTree = "<group>"; };
+		888090461BE92ECC0091C6EC /* 640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640_960.png; sourceTree = "<group>"; };
+		888090501BE948780091C6EC /* JournalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		888090521BE952D70091C6EC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888090051BE92AAC0091C6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8880901C1BE92AAD0091C6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888090271BE92AAD0091C6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88808FFF1BE92AAC0091C6EC = {
+			isa = PBXGroup;
+			children = (
+				8880903C1BE92ECC0091C6EC /* icons */,
+				888090441BE92ECC0091C6EC /* launchImages */,
+				8880900A1BE92AAC0091C6EC /* Forest Calculator */,
+				888090221BE92AAD0091C6EC /* Forest CalculatorTests */,
+				8880902D1BE92AAD0091C6EC /* Forest CalculatorUITests */,
+				888090091BE92AAC0091C6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888090091BE92AAC0091C6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888090081BE92AAC0091C6EC /* Forest Calculator.app */,
+				8880901F1BE92AAD0091C6EC /* Forest CalculatorTests.xctest */,
+				8880902A1BE92AAD0091C6EC /* Forest CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8880900A1BE92AAC0091C6EC /* Forest Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8880900B1BE92AAC0091C6EC /* AppDelegate.swift */,
+				888090521BE952D70091C6EC /* Model.swift */,
+				8880900D1BE92AAC0091C6EC /* ViewController.swift */,
+				888090501BE948780091C6EC /* JournalTableViewController.swift */,
+				8880900F1BE92AAD0091C6EC /* Main.storyboard */,
+				888090151BE92AAD0091C6EC /* Assets.xcassets */,
+				888090171BE92AAD0091C6EC /* LaunchScreen.storyboard */,
+				8880901A1BE92AAD0091C6EC /* Info.plist */,
+				888090121BE92AAD0091C6EC /* Forest_Calculator.xcdatamodeld */,
+			);
+			path = "Forest Calculator";
+			sourceTree = "<group>";
+		};
+		888090221BE92AAD0091C6EC /* Forest CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				888090231BE92AAD0091C6EC /* Forest_CalculatorTests.swift */,
+				888090251BE92AAD0091C6EC /* Info.plist */,
+			);
+			path = "Forest CalculatorTests";
+			sourceTree = "<group>";
+		};
+		8880902D1BE92AAD0091C6EC /* Forest CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8880902E1BE92AAD0091C6EC /* Forest_CalculatorUITests.swift */,
+				888090301BE92AAD0091C6EC /* Info.plist */,
+			);
+			path = "Forest CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		8880903C1BE92ECC0091C6EC /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				8880903D1BE92ECC0091C6EC /* icon120(launchScreen).png */,
+				8880903E1BE92ECC0091C6EC /* icon120.png */,
+				8880903F1BE92ECC0091C6EC /* icon180.png */,
+				888090401BE92ECC0091C6EC /* icon58.png */,
+				888090411BE92ECC0091C6EC /* icon80.png */,
+				888090421BE92ECC0091C6EC /* icon87.png */,
+				888090431BE92ECC0091C6EC /* iconLaunchScreen.png */,
+			);
+			name = icons;
+			path = "Forest Calculator/icons";
+			sourceTree = "<group>";
+		};
+		888090441BE92ECC0091C6EC /* launchImages */ = {
+			isa = PBXGroup;
+			children = (
+				888090451BE92ECC0091C6EC /* 640_1136.png */,
+				888090461BE92ECC0091C6EC /* 640_960.png */,
+			);
+			name = launchImages;
+			path = "Forest Calculator/launchImages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888090071BE92AAC0091C6EC /* Forest Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888090331BE92AAD0091C6EC /* Build configuration list for PBXNativeTarget "Forest Calculator" */;
+			buildPhases = (
+				888090041BE92AAC0091C6EC /* Sources */,
+				888090051BE92AAC0091C6EC /* Frameworks */,
+				888090061BE92AAC0091C6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forest Calculator";
+			productName = "Forest Calculator";
+			productReference = 888090081BE92AAC0091C6EC /* Forest Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8880901E1BE92AAD0091C6EC /* Forest CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888090361BE92AAD0091C6EC /* Build configuration list for PBXNativeTarget "Forest CalculatorTests" */;
+			buildPhases = (
+				8880901B1BE92AAD0091C6EC /* Sources */,
+				8880901C1BE92AAD0091C6EC /* Frameworks */,
+				8880901D1BE92AAD0091C6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888090211BE92AAD0091C6EC /* PBXTargetDependency */,
+			);
+			name = "Forest CalculatorTests";
+			productName = "Forest CalculatorTests";
+			productReference = 8880901F1BE92AAD0091C6EC /* Forest CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		888090291BE92AAD0091C6EC /* Forest CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888090391BE92AAD0091C6EC /* Build configuration list for PBXNativeTarget "Forest CalculatorUITests" */;
+			buildPhases = (
+				888090261BE92AAD0091C6EC /* Sources */,
+				888090271BE92AAD0091C6EC /* Frameworks */,
+				888090281BE92AAD0091C6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8880902C1BE92AAD0091C6EC /* PBXTargetDependency */,
+			);
+			name = "Forest CalculatorUITests";
+			productName = "Forest CalculatorUITests";
+			productReference = 8880902A1BE92AAD0091C6EC /* Forest CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888090001BE92AAC0091C6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MilNik;
+				TargetAttributes = {
+					888090071BE92AAC0091C6EC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9SV659AMF3;
+					};
+					8880901E1BE92AAD0091C6EC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9SV659AMF3;
+						TestTargetID = 888090071BE92AAC0091C6EC;
+					};
+					888090291BE92AAD0091C6EC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9SV659AMF3;
+						TestTargetID = 888090071BE92AAC0091C6EC;
+					};
+				};
+			};
+			buildConfigurationList = 888090031BE92AAC0091C6EC /* Build configuration list for PBXProject "Forest Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88808FFF1BE92AAC0091C6EC;
+			productRefGroup = 888090091BE92AAC0091C6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888090071BE92AAC0091C6EC /* Forest Calculator */,
+				8880901E1BE92AAD0091C6EC /* Forest CalculatorTests */,
+				888090291BE92AAD0091C6EC /* Forest CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888090061BE92AAC0091C6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8880904A1BE92ECC0091C6EC /* icon58.png in Resources */,
+				8880904D1BE92ECC0091C6EC /* iconLaunchScreen.png in Resources */,
+				8880904F1BE92ECC0091C6EC /* 640_960.png in Resources */,
+				888090471BE92ECC0091C6EC /* icon120(launchScreen).png in Resources */,
+				888090481BE92ECC0091C6EC /* icon120.png in Resources */,
+				888090491BE92ECC0091C6EC /* icon180.png in Resources */,
+				8880904C1BE92ECC0091C6EC /* icon87.png in Resources */,
+				888090191BE92AAD0091C6EC /* LaunchScreen.storyboard in Resources */,
+				888090161BE92AAD0091C6EC /* Assets.xcassets in Resources */,
+				8880904B1BE92ECC0091C6EC /* icon80.png in Resources */,
+				8880904E1BE92ECC0091C6EC /* 640_1136.png in Resources */,
+				888090111BE92AAD0091C6EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8880901D1BE92AAD0091C6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888090281BE92AAD0091C6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888090041BE92AAC0091C6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888090531BE952D70091C6EC /* Model.swift in Sources */,
+				888090141BE92AAD0091C6EC /* Forest_Calculator.xcdatamodeld in Sources */,
+				8880900E1BE92AAC0091C6EC /* ViewController.swift in Sources */,
+				888090511BE948780091C6EC /* JournalTableViewController.swift in Sources */,
+				8880900C1BE92AAC0091C6EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8880901B1BE92AAD0091C6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888090241BE92AAD0091C6EC /* Forest_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888090261BE92AAD0091C6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8880902F1BE92AAD0091C6EC /* Forest_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888090211BE92AAD0091C6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888090071BE92AAC0091C6EC /* Forest Calculator */;
+			targetProxy = 888090201BE92AAD0091C6EC /* PBXContainerItemProxy */;
+		};
+		8880902C1BE92AAD0091C6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888090071BE92AAC0091C6EC /* Forest Calculator */;
+			targetProxy = 8880902B1BE92AAD0091C6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8880900F1BE92AAD0091C6EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888090101BE92AAD0091C6EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888090171BE92AAD0091C6EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888090181BE92AAD0091C6EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888090311BE92AAD0091C6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		888090321BE92AAD0091C6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888090341BE92AAD0091C6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "Forest Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hata.Forest-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		888090351BE92AAD0091C6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "Forest Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hata.Forest-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		888090371BE92AAD0091C6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Forest CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hata.Forest-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forest Calculator.app/Forest Calculator";
+			};
+			name = Debug;
+		};
+		888090381BE92AAD0091C6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Forest CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hata.Forest-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forest Calculator.app/Forest Calculator";
+			};
+			name = Release;
+		};
+		8880903A1BE92AAD0091C6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Forest CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hata.Forest-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Forest Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8880903B1BE92AAD0091C6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Forest CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hata.Forest-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Forest Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888090031BE92AAC0091C6EC /* Build configuration list for PBXProject "Forest Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888090311BE92AAD0091C6EC /* Debug */,
+				888090321BE92AAD0091C6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888090331BE92AAD0091C6EC /* Build configuration list for PBXNativeTarget "Forest Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888090341BE92AAD0091C6EC /* Debug */,
+				888090351BE92AAD0091C6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888090361BE92AAD0091C6EC /* Build configuration list for PBXNativeTarget "Forest CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888090371BE92AAD0091C6EC /* Debug */,
+				888090381BE92AAD0091C6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888090391BE92AAD0091C6EC /* Build configuration list for PBXNativeTarget "Forest CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8880903A1BE92AAD0091C6EC /* Debug */,
+				8880903B1BE92AAD0091C6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		888090121BE92AAD0091C6EC /* Forest_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				888090131BE92AAD0091C6EC /* Forest_Calculator.xcdatamodel */,
+			);
+			currentVersion = 888090131BE92AAD0091C6EC /* Forest_Calculator.xcdatamodel */;
+			path = Forest_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 888090001BE92AAC0091C6EC /* Project object */;
+}
